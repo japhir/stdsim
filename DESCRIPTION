@@ -1,0 +1,39 @@
+Package: stdsim
+Title: Simulation of standard and sample measurements for measurement optimisation for clumped isotopes
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Ilja",
+           family = "Kocken",
+           role = c("aut", "cre"),
+           email = "i.j.kocken@uu.nl")
+Description: This package accompanies the manuscript `Optimizing the use of carbonate standards to minimize uncertainties in clumped isotope data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Licence: GPL-3 + file LICENCE
+Depends: R (>= 2.10)
+Suggests:
+    testthat,
+    spelling,
+    ggrepel (>= 0.8.1),
+    tictoc (>= 1.0)
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Collate:
+    'calibration.R'
+    'constants.R'
+    'make_smp_info.R'
+    'make_std_table.R'
+    'plot_sim.R'
+    'utils.R'
+    'sim_stds.R'
+    'stdsim.R'
+    'utils-pipe.R'
+Imports:
+    magrittr (>= 1.5),
+    purrr (>= 0.3.2),
+    investr (>= 1.4.0),
+    dplyr (>= 0.8.1),
+    ggplot2 (>= 3.2.0),
+    tibble (>= 2.1.3)

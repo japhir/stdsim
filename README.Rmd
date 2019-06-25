@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+ [![CRAN status](https://www.r-pkg.org/badges/version/stdsim)](https://cran.r-project.org/package=stdsim)
+
+# stdsim
+
+The goal of stdsim is to simulate sample and standard measurements to allow optimisation of the Empirical Transfer Function, the calibration from the machine scale of standards to an absolute reference frame.
+
+## Installation
+
+You can install the released version of stdsim from [GitHub](https://github.com/japhir) with:
+
+``` r
+devtools::install_github("japhir/stdsim")
+```
+
+## Example
+
+This shows how to run one simulation with some input parameters:
+
+```{r example}
+options(genplot=TRUE, verbose=TRUE)
+sim_stds(stdfreqs=c(1, 1, 9, 0, 0), stdn=50, smpn=30, stdev=25, smpt=5, out="pl")
+```
