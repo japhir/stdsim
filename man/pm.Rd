@@ -6,6 +6,9 @@
 \usage{
 pm(...)
 }
+\arguments{
+\item{...}{The message options}
+}
 \description{
 Display a progress message if \code{verbose} is specified
 }

@@ -17,7 +17,7 @@
 #' @importFrom dplyr mutate
 #' @seealso make_smp_info kslope kintercept kaff
 #' @export
-make_std_table <- function(id = c(paste0("ETH-", 1:4), "UU"),
+make_std_table <- function(id = c(paste0("ETH-", 1:4), "UU1"),
                            col = c("orange", "purple", "#00B600", "blue", "#FFCD00"),
                            ## col = viridis::viridis(5),
                            # ETH accepted values from Bernasconi 2018

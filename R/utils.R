@@ -3,7 +3,7 @@
 #' Display a progress message if `verbose` is specified
 #'
 #' @keywords internal
-#' @param ...
+#' @param ... The message options
 pm <- function(...) {
   if (is.null(getOption("verbose"))) {
     options(verbose = TRUE)
