@@ -4,10 +4,20 @@
 \alias{plot_sim}
 \title{Plot output of single simulation}
 \usage{
-plot_sim(out, input_etf = TRUE, input_pointrange = FALSE,
-  graylines = TRUE, violin = TRUE, point = TRUE, point_alpha = 0.5,
-  pointrange = TRUE, labs = TRUE, fixed = TRUE, idscale = TRUE,
-  axlabs = TRUE)
+plot_sim(
+  out,
+  input_etf = TRUE,
+  input_pointrange = FALSE,
+  graylines = TRUE,
+  violin = TRUE,
+  point = TRUE,
+  point_alpha = 0.5,
+  pointrange = TRUE,
+  labs = TRUE,
+  fixed = TRUE,
+  idscale = TRUE,
+  axlabs = TRUE
+)
 }
 \arguments{
 \item{out}{The output list of \code{sim_stds()} with \code{out="all"} specified.}
@@ -27,7 +37,7 @@ values.}
 
 \item{pointrange}{Logical. Plot the pointrange of the simulations.}
 
-\item{labs}{Logical. Plot labels with \link[ggrepel:ggrepel-package]{ggrepel}.}
+\item{labs}{Logical. Plot labels with \link[ggrepel:ggrepel]{ggrepel}.}
 
 \item{fixed}{Logical. Fix coordinates.}
 

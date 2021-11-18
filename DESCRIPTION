@@ -19,7 +19,7 @@ Suggests:
     tictoc (>= 1.0)
 Language: en-US
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2
 Collate:
     'calibration.R'
     'constants.R'

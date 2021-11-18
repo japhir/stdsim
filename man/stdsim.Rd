@@ -3,11 +3,7 @@
 \docType{package}
 \name{stdsim}
 \alias{stdsim}
-\alias{stdsim-package}
 \title{stdsim: simulate standard and sample measurement for measurement optimisation}
-\description{
-stdsim: simulate standard and sample measurement for measurement optimisation
-}
 \section{Package options}{
 
 The functions in this package listen to the \code{genplot} and

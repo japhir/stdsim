@@ -33,5 +33,6 @@ This shows how to run one simulation with some input parameters:
 
 ```{r example}
 options(genplot=TRUE, verbose=TRUE)
+library(stdsim)
 sim_stds(stdfreqs=c(1, 1, 9, 0, 0), stdn=50, smpn=30, stdev=25, smpt=5, out="pl")
 ```

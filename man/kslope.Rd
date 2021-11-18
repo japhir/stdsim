@@ -4,7 +4,9 @@
 \name{kslope}
 \alias{kslope}
 \title{kslope}
-\format{An object of class \code{numeric} of length 1.}
+\format{
+An object of class \code{numeric} of length 1.
+}
 \usage{
 kslope
 }

@@ -4,10 +4,14 @@
 \alias{make_std_table}
 \title{Create reference table of standards}
 \usage{
-make_std_table(id = c(paste0("ETH-", 1:4), "UU1"), col = c("orange",
-  "purple", "#00B600", "blue", "#FFCD00"), D47_std = c(0.258, 0.256,
-  0.691, 0.507, tempcal(4, ignorecnf = TRUE)), slope = kslope,
-  intercept = kintercept, aff = kaff)
+make_std_table(
+  id = c(paste0("ETH-", 1:4), "UU1"),
+  col = c("orange", "purple", "#00B600", "blue", "#FFCD00"),
+  D47_std = c(0.258, 0.256, 0.691, 0.507, tempcal(4, ignorecnf = TRUE)),
+  slope = kslope,
+  intercept = kintercept,
+  aff = kaff
+)
 }
 \arguments{
 \item{id}{The names of the standards that are used in the simulations.}

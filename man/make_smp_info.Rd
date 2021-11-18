@@ -4,8 +4,7 @@
 \alias{make_smp_info}
 \title{Create a tibble with sample information.}
 \usage{
-make_smp_info(smpt = 0, slope = kslope, intercept = kintercept,
-  aff = kaff)
+make_smp_info(smpt = 0, slope = kslope, intercept = kintercept, aff = kaff)
 }
 \arguments{
 \item{smpt}{The temperature from which to calculate \eqn{\Delta_{47}}{Δ[47]}

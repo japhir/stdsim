@@ -4,7 +4,9 @@
 \name{krev.slope}
 \alias{krev.slope}
 \title{krev.slope}
-\format{An object of class \code{numeric} of length 1.}
+\format{
+An object of class \code{numeric} of length 1.
+}
 \usage{
 krev.slope
 }

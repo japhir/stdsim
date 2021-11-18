@@ -4,7 +4,9 @@
 \name{krev.intercept}
 \alias{krev.intercept}
 \title{krev.intercept}
-\format{An object of class \code{numeric} of length 1.}
+\format{
+An object of class \code{numeric} of length 1.
+}
 \usage{
 krev.intercept
 }

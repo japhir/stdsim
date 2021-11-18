@@ -4,7 +4,9 @@
 \name{kcols}
 \alias{kcols}
 \title{kcols}
-\format{An object of class \code{character} of length 3.}
+\format{
+An object of class \code{character} of length 3.
+}
 \usage{
 kcols
 }

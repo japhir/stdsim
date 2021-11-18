@@ -4,10 +4,17 @@
 \alias{sim_stds}
 \title{Simulate standard and sample collection}
 \usage{
-sim_stds(stdfreqs = c(1, 1, 1, 1, 0), stdn = 50, smpn = 50,
-  stdev = 50, smpt = 0, input_slope = kslope,
+sim_stds(
+  stdfreqs = c(1, 1, 1, 1, 0),
+  stdn = 50,
+  smpn = 50,
+  stdev = 50,
+  smpt = 0,
+  input_slope = kslope,
   stdtable = make_std_table(slope = input_slope),
-  smpinfo = make_smp_info(smpt), out = "none")
+  smpinfo = make_smp_info(smpt),
+  out = "none"
+)
 }
 \arguments{
 \item{stdfreqs}{An integer/numeric vector with the proportion of each

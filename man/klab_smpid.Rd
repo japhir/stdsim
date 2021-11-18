@@ -4,7 +4,9 @@
 \name{klab_smpid}
 \alias{klab_smpid}
 \title{klab_smpid}
-\format{An object of class \code{character} of length 2.}
+\format{
+An object of class \code{character} of length 2.
+}
 \usage{
 klab_smpid
 }
