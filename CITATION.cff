@@ -1,0 +1,53 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Simulating Clumped Isotope standard statistics
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Kocken
+    family-names: Ilja Japhir
+    email: i.j.kocken@uu.nl
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0003-2196-8718'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.5710014
+    description: Zenodo all versions
+repository-code: 'https://github.com/japhir/stdsim'
+repository: 'https://zenodo.org/record/5710014'
+abstract: >-
+  The goal of stdsim is to simulate sample and standard
+  measurements to allow optimisation of the Empirical
+  Transfer Function, the calibration from the machine scale
+  of standards to an absolute reference frame.
+keywords:
+  - simulation
+  - standards
+  - statistics
+  - clumped isotopes
+license: GPL-3.0-or-later
+version: v0.0.3
+date-released: '2021-09-17'
+references:
+  - authors:
+    - family-names: Kocken
+      given-names: Ilja J.
+    - family-names: Müller
+      given-names: Inigo A.
+    - family-names: Ziegler
+      given-names: Martin
+    type: article
+    title: Optimizing the use of carbonate standards to minimize uncertainties in clumped isotope data
+    journal: Geochemistry, Geophysics, Geosystems
+    year: 2019
+    volume: 20
+    issue: 11
+    pages: 5565--5577
+    doi: 10.1029/2019GC008545
+    issn: 1525-2027
+
+  
