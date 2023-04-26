@@ -37,3 +37,9 @@ options(genplot=TRUE, verbose=TRUE)
 library(stdsim)
 sim_stds(stdfreqs=c(1, 1, 9, 0, 0), stdn=50, smpn=30, stdev=25, smpt=5, out="pl")
 ```
+
+# Citation
+
+When you use this software, please also cite the article for which this R package was written:
+
+Kocken, I. J., Müller, I. A., & Ziegler, M. (2019). Optimizing the use of carbonate standards to minimize uncertainties in clumped isotope data. Geochemistry, Geophysics, Geosystems, 20(11), 5565–5577. https://doi.org/10.1029/2019GC008545

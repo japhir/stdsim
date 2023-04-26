@@ -28,10 +28,10 @@ This shows how to run one simulation with some input parameters:
 options(genplot=TRUE, verbose=TRUE)
 library(stdsim)
 #> Warning in find.package(package, lib.loc, quiet = TRUE, verbose = verbose): package 'stdsim' found more than once, using the first from
-#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde633e2ebf/stdsim",
+#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde7ffbdc60/stdsim",
 #>   "/home/japhir/R/x86_64-pc-linux-gnu-library/stdsim"
 #> Warning in find.package(package, fp.lib.loc, quiet = TRUE): package 'stdsim' found more than once, using the first from
-#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde633e2ebf/stdsim",
+#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde7ffbdc60/stdsim",
 #>   "/home/japhir/R/x86_64-pc-linux-gnu-library/stdsim"
 #> now dyn.load("/usr/lib/R/library/grid/libs/grid.so") ...
 #> now dyn.load("/home/japhir/R/x86_64-pc-linux-gnu-library/glue/libs/glue.so") ...
@@ -84,3 +84,13 @@ sim_stds(stdfreqs=c(1, 1, 9, 0, 0), stdn=50, smpn=30, stdev=25, smpt=5, out="pl"
     #>   variable into a factor?
 
 <img src="man/figures/README-example-2.png" width="100%" />
+
+# Citation
+
+When you use this software, please also cite the article for which this
+R package was written:
+
+Kocken, I. J., Müller, I. A., & Ziegler, M. (2019). Optimizing the use
+of carbonate standards to minimize uncertainties in clumped isotope
+data. Geochemistry, Geophysics, Geosystems, 20(11), 5565–5577.
+<https://doi.org/10.1029/2019GC008545>
