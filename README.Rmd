@@ -14,6 +14,7 @@ knitr::opts_chunk$set(
 ```
 
  [![CRAN status](https://www.r-pkg.org/badges/version/stdsim)](https://cran.r-project.org/package=stdsim)
+ [![DOI](https://zenodo.org/badge/204009603.svg)](https://zenodo.org/badge/latestdoi/204009603)
 
 # stdsim
 

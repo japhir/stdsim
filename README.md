@@ -3,6 +3,7 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/stdsim)](https://cran.r-project.org/package=stdsim)
+[![DOI](https://zenodo.org/badge/204009603.svg)](https://zenodo.org/badge/latestdoi/204009603)
 
 # stdsim
 
@@ -27,10 +28,10 @@ This shows how to run one simulation with some input parameters:
 options(genplot=TRUE, verbose=TRUE)
 library(stdsim)
 #> Warning in find.package(package, lib.loc, quiet = TRUE, verbose = verbose): package 'stdsim' found more than once, using the first from
-#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde61335abc/stdsim",
+#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde633e2ebf/stdsim",
 #>   "/home/japhir/R/x86_64-pc-linux-gnu-library/stdsim"
 #> Warning in find.package(package, fp.lib.loc, quiet = TRUE): package 'stdsim' found more than once, using the first from
-#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde61335abc/stdsim",
+#>   "/tmp/Rtmpu3Tjsb/temp_libpatha2cde633e2ebf/stdsim",
 #>   "/home/japhir/R/x86_64-pc-linux-gnu-library/stdsim"
 #> now dyn.load("/usr/lib/R/library/grid/libs/grid.so") ...
 #> now dyn.load("/home/japhir/R/x86_64-pc-linux-gnu-library/glue/libs/glue.so") ...
